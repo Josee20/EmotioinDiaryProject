@@ -76,25 +76,25 @@
                                             <constraint firstAttribute="width" secondItem="1b0-0V-xJj" secondAttribute="height" multiplier="1:1" id="2Fs-g9-Ot9"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime1"/>
+                                        <state key="normal" title="행복해" image="sesac_slime1"/>
                                         <connections>
-                                            <action selector="Btn1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F0Z-20-210"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fq8-uT-DHv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOS-ag-cEw">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOS-ag-cEw">
                                         <rect key="frame" x="117.5" y="0.0" width="89" height="89.5"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime2"/>
+                                        <state key="normal" title="사랑해" image="sesac_slime2"/>
                                         <connections>
-                                            <action selector="Btn2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oed-TZ-QHD"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W5R-hP-Ga4"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnn-ne-WCF">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnn-ne-WCF">
                                         <rect key="frame" x="234.5" y="0.0" width="89.5" height="89.5"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime3"/>
+                                        <state key="normal" title="좋아해" image="sesac_slime3"/>
                                         <connections>
-                                            <action selector="Btn3Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0uL-wq-Y1P"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fmk-SW-bzU"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -108,31 +108,31 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="3EW-Rh-IZI">
                                 <rect key="frame" x="45" y="538.5" width="324" height="90"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5J6-Yi-CW0">
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5J6-Yi-CW0">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5J6-Yi-CW0" secondAttribute="height" multiplier="1:1" id="fRN-W3-d8k"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime7"/>
+                                        <state key="normal" title="심심해" image="sesac_slime7"/>
                                         <connections>
-                                            <action selector="Btn7Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ihC-0a-e3Q"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4MP-ep-Sd1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHW-hh-FrJ">
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHW-hh-FrJ">
                                         <rect key="frame" x="117" y="0.0" width="90" height="90"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime8"/>
+                                        <state key="normal" title="행복해" image="sesac_slime8"/>
                                         <connections>
-                                            <action selector="Btn8Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vvA-kO-hlZ"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vep-ru-beo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syy-2D-Hur">
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syy-2D-Hur">
                                         <rect key="frame" x="234" y="0.0" width="90" height="90"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime9"/>
+                                        <state key="normal" title="오랑해" image="sesac_slime9"/>
                                         <connections>
-                                            <action selector="Btn9Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qJ-ny-NTE"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iBI-25-TYU"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -146,31 +146,31 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="2xI-AZ-Nc4">
                                 <rect key="frame" x="45" y="403" width="324" height="90"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCs-SV-QZs">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCs-SV-QZs">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="yCs-SV-QZs" secondAttribute="height" multiplier="1:1" id="gF7-jW-gpJ"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime4"/>
+                                        <state key="normal" title="당황해" image="sesac_slime4"/>
                                         <connections>
-                                            <action selector="Btn4Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ouX-KO-m1e"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98d-7B-Sxf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUO-7M-a9V">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUO-7M-a9V">
                                         <rect key="frame" x="117" y="0.0" width="90" height="90"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime5"/>
+                                        <state key="normal" title="속상해" image="sesac_slime5"/>
                                         <connections>
-                                            <action selector="Btn5Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ydS-AX-VB3"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bhf-50-7KO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-c0-ljv">
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-c0-ljv">
                                         <rect key="frame" x="234" y="0.0" width="90" height="90"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="sesac_slime6"/>
+                                        <state key="normal" title="우울해" image="sesac_slime6"/>
                                         <connections>
-                                            <action selector="Btn6Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZe-rJ-nYZ"/>
+                                            <action selector="BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TEk-cu-cWQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -244,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="102"/>
+            <point key="canvasLocation" x="701" y="9"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4ej-m7-OYj">
