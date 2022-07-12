@@ -7,6 +7,18 @@
 
 import UIKit
 
+enum NumClicked: Int {
+    case btn1 = 0
+    case btn2 = 1
+    case btn3 = 2
+    case btn4 = 3
+    case btn5 = 4
+    case btn6 = 5
+    case btn7 = 6
+    case btn8 = 7
+    case btn9 = 8
+}
+
 class ViewController: UIViewController {
     
     var emotionArr = [0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -24,9 +36,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        
     }
     
     @IBAction func BtnClicked(_ sender: UIButton) {
@@ -35,23 +44,23 @@ class ViewController: UIViewController {
         let text = "\(sender.currentTitle!) \(emotionArr[sender.tag])"
         
         switch sender.tag {
-        case 0:
+        case NumClicked.btn1.rawValue:
             btnLabel1.text = text
-        case 1:
+        case NumClicked.btn2.rawValue:
             btnLabel2.text = text
-        case 2:
+        case NumClicked.btn3.rawValue:
             btnLabel3.text = text
-        case 3:
+        case NumClicked.btn4.rawValue:
             btnLabel4.text = text
-        case 4:
+        case NumClicked.btn5.rawValue:
             btnLabel5.text = text
-        case 5:
+        case NumClicked.btn6.rawValue:
             btnLabel6.text = text
-        case 6:
+        case NumClicked.btn7.rawValue:
             btnLabel7.text = text
-        case 7:
+        case NumClicked.btn8.rawValue:
             btnLabel8.text = text
-        case 8:
+        case NumClicked.btn9.rawValue:
             btnLabel9.text = text
         default:
             print("오류 발생")
